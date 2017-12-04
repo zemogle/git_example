@@ -4,7 +4,7 @@ from BeautifulSoup import BeautifulSoup
 
 
 def main():
-    scope = { "0" : "Haleakala, Hawaii",
+    scope = { "0" : "Maui, Hawaii",
                 "1" : "Siding Spring, Australia",}
     time.sleep(2)
     min = datetime.timedelta(seconds=10)
