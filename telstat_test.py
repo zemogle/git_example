@@ -2,6 +2,7 @@ import serial, time, sys, json, urllib2, datetime
 from datetime import datetime as dt
 from BeautifulSoup import BeautifulSoup
 
+
 def main():
     scope = { "0" : "Haleakala, Hawaii",
                 "1" : "Siding Spring, Australia",}
